@@ -145,7 +145,7 @@ export function getHtml(parsedReq: ParsedRequest) {
           `<div class="partner-logo">
             <img src="${partnerLogo}" />
           </div>`
-          : `<!-- No partner logo -->`}
+          : `<div></div>`}
         </div>
       </div>
     </article>
